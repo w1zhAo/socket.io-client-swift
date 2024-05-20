@@ -27,5 +27,8 @@ Pod::Spec.new do |s|
       'SWIFT_VERSION' => '5.4'
   }
   s.source_files  = "Source/SocketIO/**/*.swift", "Source/SocketIO/*.swift"
-  s.dependency "Starscream", "~> 4.0.6"
+  s.dependency "Starscream"
+  
+  s.resource_bundles = {'Socket.IO-Client-Swift' => ['Source/PrivacyInfo.xcprivacy']}
+ 
 end

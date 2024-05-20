@@ -71,6 +71,8 @@
 		1C686BD71F869AF1007D8627 /* SocketParserTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketParserTest.swift; sourceTree = "<group>"; };
 		1C686BD81F869AF1007D8627 /* SocketNamespacePacketTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketNamespacePacketTest.swift; sourceTree = "<group>"; };
 		1C686BFE1F869E9D007D8627 /* SocketObjectiveCTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocketObjectiveCTest.m; sourceTree = "<group>"; };
+		20F6DEE72BFAE7550008F073 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = Source/PrivacyInfo.xcprivacy; sourceTree = SOURCE_ROOT; };
+		20F6DEE82BFAE7610008F073 /* Socket.IO-Client-Swift.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Socket.IO-Client-Swift.podspec"; sourceTree = SOURCE_ROOT; };
 		572EF2381B51F18A00EEBB58 /* SocketIO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SocketIO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		572EF23B1B51F18A00EEBB58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		572EF23C1B51F18A00EEBB58 /* SocketIO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocketIO.h; sourceTree = "<group>"; };
@@ -156,6 +158,7 @@
 				1C686BD81F869AF1007D8627 /* SocketNamespacePacketTest.swift */,
 				DD52BBAC5FAA7730D32CD5BF /* SocketMangerTest.swift */,
 				1C6577B639C34EE1C8829D9A /* utils.swift */,
+				20F6DEE82BFAE7610008F073 /* Socket.IO-Client-Swift.podspec */,
 			);
 			name = TestSocketIO;
 			path = Tests/TestSocketIO;
@@ -206,6 +209,7 @@
 		572EF23A1B51F18A00EEBB58 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				20F6DEE72BFAE7550008F073 /* PrivacyInfo.xcprivacy */,
 				572EF23B1B51F18A00EEBB58 /* Info.plist */,
 			);
 			name = "Supporting Files";
